@@ -1,0 +1,24 @@
+@media (max-width: 992px) {
+    #main {
+       text-align: center;
+       width: 100%;
+       align-items: center; 
+       justify-content: center;
+    }
+    .h1__title {
+        display: block;
+        width: 100%;
+    }
+    .p__main {
+        font-size: 30px;
+    }
+    .main__buttons {
+        justify-content: center;
+    }
+
+    /* ---SECTION OFERTA/DELIVERY--- */
+
+    #oferta-section {
+        
+    }
+}

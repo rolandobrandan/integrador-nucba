@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;1,700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body class="grid-container">
+
+    <header class="header">
+        <a href="" class="logo-header">
+            <p>Gusto Argento</p><img src="./img/arg-bandera.webp" alt="">
+        </a>
+        <nav class="nav">
+            <input type="checkbox" id="toggle-menu">
+            <label for="toggle-menu"><i class="fa-solid fa-bars"></i></label>
+            <ul class="ul__list">
+                <li class="li__list"><a href="#main">Home</a></li>
+                <li class="li__list"><a href="#nosotros-section">About</a></li>
+                <li class="li__list"><a href="#delivery-section">Delivery</a></li>
+                <li class="li__list"><a href="#menu-section">Menu</a></li>
+                <li class="li__list"><a href="#contacto-section">Contacto</a></li>
+                <li class="li__list"><a href="#ofertas-section">Ofertas</a></li>
+            </ul>
+           
+        </nav>
+    </header>
+    
+    <main id="main">
+        <div class="main-container">
+            <div class="main__title">
+                <h1 class="h1__title">Somos Gusto Argento! <br>Veni a comer las comidas<br>mas sabrosas de la ciudad</h1>
+                <p class="p__main">Tenemos envios a domicilio, take away, y reservas<br>Podes venir a festejar tu compleaños o juntadas<br>Utilizamos productos de primera calidad para obtener sabores unicos</p>
+            </div>
+
+            <div class="main__buttons">
+                <a href="#delivery-section">Ordene Aqui</a>
+                <a href="#menu-section">Ver Catalogo</a>
+            </div>
+
+        </div>
+
+       
+    </main>
+
+    <section id="ofertas-section">
+        <div class="ofertas__main">
+            <div class="ofertas__title">
+                <h2 class="h2__ofertas">Ofertas Especiales</h2>
+                <p class="p__ofertas">Todos los dias de la semana, nuevas ofertas. Mismos productos hasta con 35% de descuento</p>
+            </div>
+
+            <div class="ofertas">
+                <div class="oferta">
+                    <img src="./img/main-bg.jpg">
+                    <div class="oferta__info">
+                        <h3>Hamburguesa Pollo krispy</h3>
+                        <p>Pan, medallon de pollo crujiente, tomate, lechuga, cebolla y ketchup. Incluye papas fritas</p>
+                    </div>
+                    <a href="" class="a__button">
+                        <p>Comprar ahora</p>
+                        <p>$2,700</p>
+                    </a>
+                </div>
+
+                <div class="oferta">
+                    <img src="./img/pizza-oferta.jpg">
+                    <div class="oferta__info">
+                        <h3>Pizza calabresa / 4 quesos</h3>
+                        <p>Salsa de tomate, muzzarela, salame, queso roquefort, queso tybo, parmesano, oregano. (Promocion valida solo por take away)</p>
+                    </div>
+                    <a href="" class="a__button">
+                        <p>Comprar ahora</p>
+                        <p>$3,250</p>
+                    </a>
+                </div>
+
+                <div class="oferta">
+                    <img src="./img/cocacola.jpg">
+                    <div class="oferta__info">
+                        <h3>Coca cola 500ml</h3>
+                        <p>Comprando 4 unidades o más de Coca Cola 500ml tienes descuento del 40% en las siguentes unidades. (Promocion valida solo para consumo en el local)</p>
+                    </div>
+                    <a href="" class="a__button">
+                        <p>Comprar ahora</p>
+                        <p>$470</p>
+                    </a>
+                </div>
+
+                
+            </div>
+        </div>
+
+    </section>
+
+    <!-- DELIVERY SECTION -->
+
+    <section id="delivery-section">
+        <div class="delivery-container">
+
+             <div class="delivery__info">
+                <h2 class="delivery__title">Delivery</h2>
+                <p class="delivery__p">Sigue los pasos para ordenar comida a domicilio!</p>
+             </div>
+
+            <div class="delivery-grid">
+                <!-- order -->
+                <div class="delivery__box">
+                    <div class="delivery__icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-shopping-bag-check" width="52" height="52" viewBox="0 0 24 24" stroke-width="1.5" stroke="#f3d934" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <path d="M11.5 21h-2.926a3 3 0 0 1 -2.965 -2.544l-1.255 -8.152a2 2 0 0 1 1.977 -2.304h11.339a2 2 0 0 1 1.977 2.304l-.5 3.248" />
+                            <path d="M9 11v-5a3 3 0 0 1 6 0v5" />
+                            <path d="M15 19l2 2l4 -4" />
+                          </svg>
+                    </div>
+                    <h3 class="h3__box">Order</h3>
+                    <p class="p__box">Una vez que hayas explorado el menú, decide qué combo te apetecen hoy. Podes hacer tu pedido por la pagina web, por nuestra app, o por Telefono. Todos nuestros precios estan actualizados!</p>
+                </div>
+
+                <!-- payment -->
+                <div class="delivery__box">
+                    <div class="delivery__icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-credit-card" width="52" height="52" viewBox="0 0 24 24" stroke-width="1.5" stroke="#f3d934" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <path d="M3 5m0 3a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v8a3 3 0 0 1 -3 3h-12a3 3 0 0 1 -3 -3z" />
+                            <path d="M3 10l18 0" />
+                            <path d="M7 15l.01 0" />
+                            <path d="M11 15l2 0" />
+                          </svg>
+                    </div>
+                    <h3 class="h3__box">Payment</h3>
+                    <p class="p__box">Una vez que hayas seleccionado todos los artículos que deseas, procede al pago. Aceptamos diferentes formas de pago, ya sea efectivo, tarjeta de crédito o a través de plataformas de pago en línea, según tu preferencia, ya sea transferencia bancaria o por QR de Mercado Pago</p>
+                </div>
+
+                <!-- delivery -->
+                <div class="delivery-box">
+                    <div class="delivery__icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-truck-delivery" width="52" height="52" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <path d="M7 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+                            <path d="M17 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+                            <path d="M5 17h-2v-4m-1 -8h11v12m-4 0h6m4 0h2v-6h-8m0 -5h5l3 5" />
+                            <path d="M3 9l4 0" />
+                          </svg>
+                    </div>
+                    <h3 class="h3__box">Delivery</h3>
+                    <p class="p__box">Si estás en el local, te proporcionaremos un número de pedido y te avisaremos cuando esté listo. Si optas por la entrega, proporciona tu dirección y espera cómodamente en casa. Hacemos las entregas sin cargo!</p>
+                </div>
+
+                <!-- packaging -->
+                <div class="delivery__box">
+                    <div class="delivery__icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-package" width="52" height="52" viewBox="0 0 24 24" stroke-width="1.5" stroke="#f3d934" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <path d="M12 3l8 4.5l0 9l-8 4.5l-8 -4.5l0 -9l8 -4.5" />
+                            <path d="M12 12l8 -4.5" />
+                            <path d="M12 12l0 9" />
+                            <path d="M12 12l-8 -4.5" />
+                            <path d="M16 5.25l-8 4.5" />
+                          </svg>
+                    </div>
+                    <h3 class="h3__box">Packaging</h3>
+                    <p class="p__box">Empacamos los productos en cajas termicas y papel aluminio, para mantener tu comida caliente y fresca para que puedas disfrutarla al maximo. Asi estes donde estes tu comida llegara en excelentes condiciones estes donde estes.</p>
+                </div>
+
+            </div>
+            
+
+            
+        </div>
+    </section>
+
+    <!-- MENU COMIDAS -->
+
+    <section id="menu-section">
+        <div class="section3-container">
+  
+            <div class="container-option">
+            <h2 class="menu__h2">Menú</h2>
+            <span class="active">Hamburguesas</span>
+            <span>Pizzas</span>
+            <span>Bebidas</span>
+            <span>Entradas</span>
+        </div>
+
+        <div class="menu-container">
+            
+            <div class="menu__card">   <!-- card -->
+                <img src="./img/burger.jpg" alt="">
+                <div class="card__info">
+                    <h4>Mega Hulk</h4>
+                    <p>Pan, medallon de carne de 150gr, mostaza, pepinos, rucula, espinaca y cebolla. Incluye papas fritas </p> 
+                </div>
+                <div class="container__stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                    
+                </div>
+                    <a href="" class="button__price">
+                        <p>Comprar</p>
+                        <p>$5,200</p>
+                    </a>                
+             </div>
+
+             <div class="menu__card">   <!-- card -->
+                <img src="./img/burger2.jpg" alt="" width="">
+            <div class="card__info">
+                <h4>Mega Veggie</h4>
+                <p>Pan, medallon a base de lentejas, cebolla morada, ketchup, pepinos y lechuga. Incluye papas fritas</p> 
+            </div>
+            <div class="container__stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+                <i class="fa-regular fa-star"></i>
+            </div>
+                <a href="" class="button__price">
+                    <p>Comprar</p>
+                    <p>$4,950</p>
+                </a>         
+            </div>
+
+         <div class="menu__card">   <!-- card -->
+            <img src="./img/burger3.jpg" alt="" width="">
+        <div class="card__info">
+            <h4>Burger Kids</h4>
+            <p>Pan, medallon de carne, tomate, lechuga, y queso suave. Incluye papas fritas</p>
+        </div>
+        <div class="container__stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+        </div>
+            <a href="" class="button__price">
+                <p>Comprar</p>
+                <p>$4,200</p>
+            </a>
+        </div>
+
+        <div class="menu__card">   <!-- card -->
+            <img src="./img/burger4.jpg" alt="" width="">
+        <div class="card__info">
+            <h4>Portobello King</h4>
+            <p>Pan, medallon de carne, hongos portobellos, cebolla morada, pickles. Incluye papas fritas</p> 
+        </div>
+        <div class="container__stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+        </div>
+            <a href="" class="button__price">
+                <p>Comprar</p>
+                <p>$4,950</p>
+            </a>           
+        </div>
+
+        <div class="menu__card">   <!-- card -->
+            <img src="./img/burger5.jpg" alt="" width="">
+        <div class="card__info">
+            <h4>Blue Burger</h4>
+            <p>Pan, medallon de carne, tomate, lechuga, cheddar, queso azul, queso tybo y cebolla. Incluye papas fritas</p> 
+        </div>
+        <div class="container__stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+        </div>
+            <a href="" class="button__price">
+                <p>Comprar</p>
+                <p>$5,400</p>
+            </a>                
+     </div>
+
+     <div class="menu__card">   <!-- card -->
+        <img src="./img/burger6.jpg" alt="" width="">
+    <div class="card__info">
+        <h4>American Burger</h4>
+        <p>Pan, medallon de 120gr, tomate, lechuga, cheddar, aderezo especial y cebolla. Incluye papas fritas</p> 
+    </div>
+    <div class="container__stars">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star-half-stroke"></i>
+    </div>
+        <a href="" class="button__price">
+            <p>Comprar</p>
+            <p>$5,500</p>
+        </a>                
+ </div>
+
+ <div class="menu__card">   <!-- card -->
+    <img src="./img/burger7.jpg" alt="" width="">
+<div class="card__info">
+    <h4>Burger Doble</h4>
+    <p>Pan, dos medallones de carne, tomate, lechuga, cheddar y cebolla. Incluye papas fritas</p> 
+</div>
+<div class="container__stars">
+    <i class="fa-solid fa-star"></i>
+    <i class="fa-solid fa-star"></i>
+    <i class="fa-solid fa-star"></i>
+    <i class="fa-solid fa-star"></i>
+    <i class="fa-solid fa-star"></i>
+</div>
+    <a href="" class="button__price">
+        <p>Comprar</p>
+        <p>$5,200</p>
+    </a>                
+</div>
+
+<div class="menu__card">   <!-- card -->
+    <img src="./img/burger9.jpg" alt="" width="">
+<div class="card__info">
+    <h4>Huevo King</h4>
+    <p>Pan, medallon de carne, bacon, lechuga, huevo y cebolla. Incluye papas fritas</p>
+</div>
+<div class="container__stars">
+    <i class="fa-solid fa-star"></i>
+    <i class="fa-solid fa-star"></i>
+    <i class="fa-solid fa-star"></i>
+    <i class="fa-solid fa-star-half-stroke"></i>
+    <i class="fa-regular fa-star"></i>
+</div>
+    <a href="" class="button__price">
+        <p>Comprar</p>
+        <p>$4,800</p>
+    </a>                
+</div>
+
+    </div>
+
+    </div>
+    </section>
+
+    <!-- SOBRE NOSOTROS -->
+
+    <section id="nosotros-section">
+        <div class="nosotros-container">
+            
+            <div class="img__nosotros">
+                <img src="./img/about.jpg" alt="">
+            </div>
+
+            <div class="info__nosotros">
+                <div class="info__p">
+                    <h3 class="infoh3">Sobre nosotros</h3>
+                    <p class="infop">En Gusto Argento tenemos un acogedor local, impregnado de un ambiente moderno y te invita a explorar nuestra amplia variedad de hamburguesas y pizzas. Cada producto es una obra maestra, creada con ingredientes frescos y de la más alta calidad. Desde las carnes premium hasta las salsas artesanales y los panes recién horneados, cada detalle se ha pensado para ofrecerte una experiencia excepcional.</p>
+                </div>
+
+                <div class="info__ingredientes">
+                    <h3 class="infoh3">Calidad Premium</h3>
+                    <p class="infop">Contamos con los mejores ingredientes de calidad premium, para poder brindarte la mejor experiencia en gastronomia de la ciudad, con sabores unicos, ofertas todas las semanas, y la mejor atencion para nuestros clientes.</p>
+                </div>
+
+                <div class="info__ingredientes">
+                    <h3 class="infoh3">Nuestra Atención</h3>
+                    <p class="infop">La experiencia en Gusto Argento no se trata solo de las hamburguesas. Nuestro personal amable y dedicado se esfuerza por proporcionarte un servicio excepcional, asegurándose de que cada visita sea memorable.</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- CONTACTO -->
+
+    <section id="contacto-section">
+        <div class="contacto-container">
+            <div class="inputs">
+                <form action="">
+                    <div class="input__name">
+                        <p class="p__name">Ingresa tu nombre:</p>
+                        <input class="input__box" type="text" placeholder="Name">
+                    </div>
+
+                    <div class="input__number">
+                        <p class="p__name">Ingresa tu número:</p>
+                        <input class="input__box" type="tel" name="" id="" placeholder="Number">
+                    </div>
+
+                    <div class="input__message">
+                        <p class="p__name">Dejanos un mensaje:</p>
+                        <input class="input__text" type="textarea">
+                    </div>
+                    
+                </form>
+            </div>
+
+            <div class="info-contacto">
+                <div class="info">
+                    <div class="h2__container">
+                        <h2 class="infoh2">Contacto</h2>
+                        <hr>
+                    </div>
+
+                    <h3 class="info__h3">Contactanos para informacion o reclamos</h3>
+
+                    <div class="info__info">
+                        <h4 class="infoh4">Telefono:</h4>
+                        <p class="contactop">+54 9 3572438612</p>
+                        <p class="contactop">+54 9 3572434343</p>
+                    </div>
+
+                    <div class="info__info">
+                        <h4 class="infoh4">Email:</h4>
+                        <p class="contactop">gustoargentofake@gmail.com</p>
+                    </div>
+                    
+                    <a class="button__contacto" href="">Mas Información</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="p__footer">
+                <p>Redes:</p>
+                <a href="https://www.youtube.com/watch?v=pqrUQrAcfo4"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-linkedin" width="28" height="28" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
+                    <path d="M8 11l0 5" />
+                    <path d="M8 8l0 .01" />
+                    <path d="M12 16l0 -5" />
+                    <path d="M16 16v-3a2 2 0 0 0 -4 0" />
+                  </svg></a>
+
+                <a href="https://www.youtube.com/watch?v=pqrUQrAcfo4"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-x" width="28" height="28" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M4 4l11.733 16h4.267l-11.733 -16z" />
+                    <path d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772" />
+                  </svg></i></a>
+
+                <a href="https://www.youtube.com/watch?v=pqrUQrAcfo4"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="28" height="28" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M4 4m0 4a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z" />
+                    <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+                    <path d="M16.5 7.5l0 .01" />
+                  </svg></i></a>
+
+                <a href="https://www.youtube.com/watch?v=pqrUQrAcfo4"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook" width="28" height="28" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
+                  </svg></i></a>
+
+            </div>
+                
+            <div class="footer__info">
+                <p>Hecho por Rolando Brandan ©</p>
+            </div>
+        </div>
+
+    </footer>
+</body>
+</html>
