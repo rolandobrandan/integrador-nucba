@@ -1,24 +1,221 @@
 @media (max-width: 992px) {
-    #main {
-       text-align: center;
-       width: 100%;
-       align-items: center; 
-       justify-content: center;
-    }
-    .h1__title {
-        display: block;
+    .header {
         width: 100%;
     }
-    .p__main {
+    /* main */
+    #main {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .main__title {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-position: center;
         font-size: 30px;
     }
     .main__buttons {
         justify-content: center;
+        align-items: center;
+        text-align: center;
     }
 
-    /* ---SECTION OFERTA/DELIVERY--- */
+/* ofertas */
+    #ofertas-section {
+        width: 100%;
+    }
+    
 
-    #oferta-section {
+/* delivery */
+    #delivery-section {
+        width: 100%;
+    }
+    .delivery-container {
+         justify-content: center;
+    }
+
+/* menu */
+
+    #menu-section {
+        width: 100%;
+
+    }
+    .menu-container {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+/* nosotros */
+    #nosotros-section {
+        width: 100%;
+        background-image: url(./img/about.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+   
+       
+    .img__nosotros {
+        display: none;
+    }
+    
+/* contacto */
+    #contacto-section {
+        width: 100%;
+    }
+    .contacto-container {
+        align-items: center;
+        text-align: center; 
+        display: flex;
+        flex-wrap: wrap;    
+    }
+    
+
+/* footer */
+    .footer {
+        background-image: url(./img/arg-bandera.webp);
+        width: 100%;
+    }
+    .footer-container {
+        gap: 50px;
+        justify-content:space-evenly;
+        align-items: center;
+        text-align: center;
+    }
+    .p__footer {
+        /* display: block; */
+        /* padding-left: 200px; */
+
+    }
+    .footer__info {
+        padding-left: 290px;
+        /* display: ; */
+    }
+    
+    
+}
+
+
+@media (max-width: 576px) {
+    .header {
+        width: calc(100vh);
+    }
+    .ul__list {
+        background-color: var(--negro);
+        width: 100%;
+        height: calc(100vh - 80px);
+        position: absolute;
+        top: 80px;
+        left: 0;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transform: translateX(200%);
+        transition: all 0.4s ease-out;
+    }
+    .nav i {
+        display: block;
+        color: var(--amarillo);
+    }
+    #toggle-menu:checked ~ .ul__list {
+        transform: translateX(0);
+        transition: all 0.4s ease-in;
+    }
+
+/* main */
+    #main {
+        width: calc(100vh);
+
+    }
+    .main__title {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-position: center;
+        font-size: 30px;
+    }
+    .p__main {
+        display: none;
+    }
+
+/* ofertas */
+    #ofertas-section {
+        width: calc(100vh);
+
+    }
+
+/* delivery */
+    #delivery-section {
+        width: calc(100vh);
         
+    }
+    .delivery-container {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+/* menu */
+
+    #menu-section {
+        width: calc(100vh);
+
+    }
+    .menu-container {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+/* nosotros */
+    #nosotros-section {
+        width: calc(100vh);
+        background-image: url(./img/about.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+   
+       
+    .img__nosotros {
+        display: none;
+    }
+    
+/* contacto */
+    #contacto-section {
+        width: calc(100vh);
+    }
+    .contacto-container {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .inputs {
+       display: none;
+    }
+
+/* footer */
+    .footer {
+        background-image: url(./img/arg-bandera.webp);
+        /* background-position: calc(15vh); */
+        background-position-x: calc(20vh);
+    }
+    .footer-container {
+        gap: 50px;
+        justify-content:space-evenly;
+        align-items: center;
+        text-align: center;
+    }
+    .p__footer {
+        /* display: block; */
+        padding-left: 200px;
+
+    }
+    .footer__info {
+        padding-left: 200px;
+        /* display: ; */
     }
 }
