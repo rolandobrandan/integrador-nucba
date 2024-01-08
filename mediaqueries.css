@@ -67,7 +67,7 @@
         width: 100%;
     }
     .contacto-container {
-        align-items: center;
+         align-items: center;
         text-align: center; 
         display: flex;
         flex-wrap: wrap;    
@@ -156,6 +156,7 @@
         justify-content: center;
         align-items: center;
         text-align: center;
+    
     }
 
 /* menu */
@@ -209,13 +210,13 @@
         align-items: center;
         text-align: center;
     }
-    .p__footer {
-        /* display: block; */
+    /* .p__footer {
+        
         padding-left: 200px;
 
     }
     .footer__info {
         padding-left: 200px;
-        /* display: ; */
-    }
+        
+    } */
 }
